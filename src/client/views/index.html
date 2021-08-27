@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Test</title>
+
+    </head>
+
+    <body>
+
+        <header>
+            <div class="">
+                <img src="https://images.unsplash.com/photo-1606922306430-6f429fdf4d9e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=628&q=80" />
+            </div>
+            <div class="">
+                Find out more about <a href="https://learn.meaningcloud.com/developer/sentiment-analysis/2.1/doc/what-is-sentiment-analysis" target="_blank"> Sentiment analysis</a> 
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <form onsubmit="return Client.handleSubmit(event)">
+                    <label>Enter a valid URL for a blog or an article to analyze using the meaningCloud API sentiment analyzer</label>
+                    <input id="name" type="text" name="input" value="" placeholder="Enter URL Here">
+                    <input id="button" type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
+                </form>
+            <section>
+                <hr>
+                
+                <p id="errormessage"></p>
+                <section class="results" id="results">
+    <strong class="label">Sentiment Analysis Results:</strong>
+    <div>
+        <label for="score_tag">score_tag : </label>
+        <span id="score_tag"></span>
+    </div>
+    <div>
+        <label for="subjectivity">Subjectivity : </label>
+        <span id="subjectivity"></span>
+    </div>
+    <div>
+        <label for="agreement">Agreement : </label>
+        <span id="agreement"></span>
+    </div>
+    <div>
+        <label for="irony">Irony : </label>
+        <span id="irony"></span>
+    </div>
+    <div>
+        <label for="Confidence">Confidence : </label>
+        <span id="confidence"></span>
+    </div>
+</section>
+        </main>
+
+        <footer>
+            
+        </footer>
+        <!-- <script>
+            // Check that service workers are supported
+            if ('serviceWorker' in navigator) {
+                // Use the window load event to keep the page load performant
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('/service-worker.js');
+                });
+            }
+        </script> -->
+
+    </body>
+</html>
