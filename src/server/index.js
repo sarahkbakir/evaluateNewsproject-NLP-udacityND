@@ -30,7 +30,7 @@ app.use(cors());
 //set API
 
 const API_KEY = process.env.API_KEY
-const API_URL = process.env.API_URL
+const API_URL = "https://api.meaningcloud.com/sentiment-2.1?"
 
 
 app.get('/', function (req, res) {
