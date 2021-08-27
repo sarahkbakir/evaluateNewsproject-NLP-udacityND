@@ -25,7 +25,7 @@ This is the last project in Udacity React ND - advanced track in the FWD initita
 
 
 
-## API -meaningcloud - Sentiment analysis:
+## API - meaningcloud - Sentiment analysis:
 Sentiment Analysis is MeaningCloud's solution for performing a detailed multilingual sentiment analysis of texts from different sources. The text provided is analyzed to determine if it expresses a positive/negative/neutral sentiment. Additionally, Sentiment Analysis detects if the text processed is subjective or objective and if it contains irony marks [beta] at a global level, giving the user additional information.
 
 ## Screnshots for the App:
