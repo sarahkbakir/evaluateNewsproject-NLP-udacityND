@@ -9,11 +9,14 @@ This is the last project in Udacity React ND - advanced track in the FWD initita
 * start the development server with `npm start` *or yarn run*
 
 ## The project structure:
---project is webpack built with development environment and production environment configured separately in different config files for more stability, I also used "npm run build-dev" for development denvironemt and "npm run build-prod" for production envireonment. I used "web-dev-server" and other tools for better development and minifying everything. I also used server workers to enable offline functionality.
+- project is webpack built with development environment and production environment configured separately in different config files for more stability, I also used "npm run build-dev" for development denvironemt and "npm run build-prod" for production envireonment. I used "web-dev-server" and other tools for better development and minifying everything. I also used server workers to enable offline functionality.
 
---The JavaScript is mainly used to set up the server (express and other tools) , managing the handler functions and validation function on the Client side and updating the UI after API responses.
+- The JavaScript is mainly used to set up the server (express and other tools) , managing the handler functions and validation function on the Client side and updating the UI after API responses.
 
---CSS and SASS are used chained in nested sass files for styling (simple styling)
+- CSS and SASS are used chained in nested sass files for styling (simple styling)
+
+- Assests and image used are from screenshots form the project built and http://unsplash.com 
+
 
 
 ## API -meaningcloud - Sentiment analysis:
