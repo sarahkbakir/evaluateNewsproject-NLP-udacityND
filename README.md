@@ -6,11 +6,10 @@ This is the last project in Udacity React ND - advanced track in the FWD initita
 
 ### run the App:
 * Sign up at https://www.meaningcloud.com/developer/sentiment-analysis with your mail or any account, get an API key:
-* Install the dotenv package:
-- - npm install dotenv
-- Create a new .env file in the root of your project
+
+* Create a new .env file in the root of your project
 - Fill the .env file with your API key like this:
-- - API_KEY=**************************
+- - API_KEY=***********************
 * install all project dependencies with `npm install` *or yarn install*
 * build the dist with `npm run build-prod`
 * start the development server with `npm run start` *or yarn run*
@@ -29,7 +28,7 @@ This is the last project in Udacity React ND - advanced track in the FWD initita
 ## API - meaningcloud - Sentiment analysis:
 Sentiment Analysis is MeaningCloud's solution for performing a detailed multilingual sentiment analysis of texts from different sources. The text provided is analyzed to determine if it expresses a positive/negative/neutral sentiment. Additionally, Sentiment Analysis detects if the text processed is subjective or objective and if it contains irony marks [beta] at a global level, giving the user additional information.
 
-## Screnshots for the App:
+## Screnshots of the App:
 ### Valid-URL with results:
 <img src="src/client/assets/validURL.png" alt="validURL page"/>
 
