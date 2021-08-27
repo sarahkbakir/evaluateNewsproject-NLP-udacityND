@@ -13,7 +13,7 @@ This is the last project in Udacity React ND - advanced track in the FWD initita
 - API_KEY=**************************
 
 * install all project dependencies with `npm install` *or yarn install*
-* start the development server with `npm start` *or yarn run*
+* start the development server with `npm run start` *or yarn run*
 ## The project structure:
 - project is webpack built with development environment and production environment configured separately in different config files for more stability, I also used "npm run build-dev" for development denvironemt and "npm run build-prod" for production envireonment. I used "web-dev-server" and other tools for better development and minifying everything. I also used server workers to enable offline functionality.
 
