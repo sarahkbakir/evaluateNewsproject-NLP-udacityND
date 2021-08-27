@@ -11,8 +11,8 @@ This is the last project in Udacity React ND - advanced track in the FWD initita
 - Create a new .env file in the root of your project
 - Fill the .env file with your API key like this:
 - - API_KEY=**************************
-
 * install all project dependencies with `npm install` *or yarn install*
+* build the dist with `npm run build-prod`
 * start the development server with `npm run start` *or yarn run*
   -  http://localhost:55555/
 ## The project structure:
