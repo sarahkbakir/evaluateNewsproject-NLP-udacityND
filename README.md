@@ -7,10 +7,10 @@ This is the last project in Udacity React ND - advanced track in the FWD initita
 ### run the App:
 * Sign up at https://www.meaningcloud.com/developer/sentiment-analysis with your mail or any account, get an API key:
 * Install the dotenv package:
--- npm install dotenv
+- - npm install dotenv
 - Create a new .env file in the root of your project
 - Fill the .env file with your API key like this:
--- API_KEY=**************************
+- - API_KEY=**************************
 
 * install all project dependencies with `npm install` *or yarn install*
 * start the development server with `npm run start` *or yarn run*
