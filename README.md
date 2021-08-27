@@ -5,7 +5,7 @@
 This is the last project in Udacity React ND - advanced track in the FWD inititaive program. This project is focused on learning how to use webpack, webpack loaders and plugins, testing, SASS and other tools to build a nice dynamic web app. This web app uses an external API that evaluates text and returns analysis to the user. The user interface has an input space and a results section, and it's also interactive when user enters an invalid URL.
 
 ### run the App:
-* login at https://www.meaningcloud.com/developer/sentiment-analysis with your mail or any account, get an API key:
+* Sign up at https://www.meaningcloud.com/developer/sentiment-analysis with your mail or any account, get an API key:
 * Install the dotenv package:
 - npm install dotenv
 - Create a new .env file in the root of your project
