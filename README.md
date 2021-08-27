@@ -1,4 +1,4 @@
-#Udacity ND project
+# Udacity ND project
 ## Evaluate news article using NLP - meaningCloud API
 
 ## Overview
